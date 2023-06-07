@@ -22,6 +22,11 @@ Route::get('/', function () {
     return view('users.home');
 });
 
+Route::get('/siswas', function () {
+    return view('users.siswa');
+});
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
