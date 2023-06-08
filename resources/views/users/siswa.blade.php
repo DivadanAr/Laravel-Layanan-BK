@@ -52,14 +52,14 @@
                         <p>Divadanarya@gmail.com</p>
                     </div>
                 </div>
-               
+
             </div>
             <button class="edit-profile">
                 Edit Profile
             </button>
-           
+
         </div>
-        
+
     </div>
     <div class="right-side">
         <div class="schedule">
@@ -74,7 +74,7 @@
             </div>
             <div class="schedule-body">
                 <table>
-                    <tr >
+                    <tr>
                         <td></td>
                         <td>08.00</td>
                         <td>09.00</td>
@@ -154,6 +154,134 @@
                 </table>
             </div>
         </div>
+        <div class="private-conseling">
+            <div class="private-header">
+                <p>Private Conseling</p>
+                <p>You can check add a request for a <span>private conseling</span></p>
+            </div>
+            <div class="private-body">
+                <a href="">
+                    <div class="view-private">
+                        <div class="view-private-icon">
+                            <img src="assets/icon/view-private.png" alt="">
+                        </div>
+                        <div class="view-private-text">
+                            <p>View Schedule</p>
+                            <p>View your private conseling schedule here !</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="input-private">
+                        <div class="input-private-icon">
+                            <img src="assets/icon/input-private.png" alt="">
+                        </div>
+                        <div class="input-private-text">
+                            <p>Request A Conseling</p>
+                            <p>Request for a private conseling service here !</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="study-conseling">
+            <div class="study-header">
+                <p>Study Conseling</p>
+                <p>You can check add a request for a <span>study conseling</span></p>
+            </div>
+            <div class="study-body">
+                <a href="">
+                    <div class="view-study">
+                        <div class="view-study-icon">
+                            <img src="assets/icon/view-study.png" alt="">
+                        </div>
+                        <div class="view-study-text">
+                            <p>View Schedule</p>
+                            <p>View your study conseling schedule here !</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="input-study">
+                        <div class="input-study-icon">
+                            <img src="assets/icon/input-study.png" alt="">
+                        </div>
+                        <div class="input-study-text">
+                            <p>Request A Conseling</p>
+                            <p>Request for a study conseling service here !</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="social-conseling">
+            <div class="social-header">
+                <p>Social Conseling</p>
+                <p>You can check add a request for a <span>social conseling</span></p>
+            </div>
+            <div class="social-body">
+                <a href="">
+                    <div class="view-social">
+                        <div class="view-social-icon">
+                            <img src="assets/icon/view-social.png" alt="">
+                        </div>
+                        <div class="view-social-text">
+                            <p>View Schedule</p>
+                            <p>View your social conseling schedule here !</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="input-social">
+                        <div class="input-social-icon">
+                            <img src="assets/icon/input-social.png" alt="">
+                        </div>
+                        <div class="input-social-text">
+                            <p>Request A Conseling</p>
+                            <p>Request for a social conseling service here !</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="career-conseling">
+            <div class="career-header">
+                <p>career Conseling</p>
+                <p>You can check add a request for a <span>career conseling</span></p>
+            </div>
+            <div class="career-body">
+                <a href="">
+                    <div class="view-career">
+                        <div class="view-career-icon">
+                            <img src="assets/icon/view-career.png" alt="">
+                        </div>
+                        <div class="view-career-text">
+                            <p>View Schedule</p>
+                            <p>View your career conseling schedule here !</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="input-career">
+                        <div class="input-career-icon">
+                            <img src="assets/icon/input-career.png" alt="">
+                        </div>
+                        <div class="input-career-text">
+                            <p>Request A Conseling</p>
+                            <p>Request for a career conseling service here !</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
     </div>
+
 </div>
 @endsection
