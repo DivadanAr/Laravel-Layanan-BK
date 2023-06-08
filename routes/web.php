@@ -22,6 +22,24 @@ Route::get('/', function () {
     return view('users.home');
 });
 
+Route::get('/siswas', function () {
+    return view('users.siswa');
+});
+
+Route::get('/private-view', function () {
+    return view('users.view-private');
+});
+Route::get('/study-view', function () {
+    return view('users.view-study');
+});
+Route::get('/career-view', function () {
+    return view('users.view-career');
+});
+Route::get('/social-view', function () {
+    return view('users.view-social');
+});
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
