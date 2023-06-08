@@ -29,6 +29,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #0A2647;
 }
 
 .back button{

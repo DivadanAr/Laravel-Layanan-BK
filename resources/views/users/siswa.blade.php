@@ -8,9 +8,12 @@
 <div class="container">
     <div class="left-side">
         <div class="back">
-            <button>
-                <iconify-icon icon="ion:arrow-back-outline"></iconify-icon>
-            </button>
+            <a href="/">
+                <button>
+                    <iconify-icon icon="ion:arrow-back-outline"></iconify-icon>
+                </button>
+            </a>
+          
             <p>Profile</p>
         </div>
         <div class="profile">
@@ -160,7 +163,7 @@
                 <p>You can check add a request for a <span>private conseling</span></p>
             </div>
             <div class="private-body">
-                <a href="">
+                <a href="/private-view">
                     <div class="view-private">
                         <div class="view-private-icon">
                             <img src="assets/icon/view-private.png" alt="">
@@ -192,7 +195,7 @@
                 <p>You can check add a request for a <span>study conseling</span></p>
             </div>
             <div class="study-body">
-                <a href="">
+                <a href="/study-view">
                     <div class="view-study">
                         <div class="view-study-icon">
                             <img src="assets/icon/view-study.png" alt="">
@@ -203,7 +206,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="/career-view">
                     <div class="input-study">
                         <div class="input-study-icon">
                             <img src="assets/icon/input-study.png" alt="">
@@ -224,7 +227,7 @@
                 <p>You can check add a request for a <span>social conseling</span></p>
             </div>
             <div class="social-body">
-                <a href="">
+                <a href="/social-view">
                     <div class="view-social">
                         <div class="view-social-icon">
                             <img src="assets/icon/view-social.png" alt="">
@@ -252,11 +255,11 @@
 
         <div class="career-conseling">
             <div class="career-header">
-                <p>career Conseling</p>
+                <p>Career Conseling</p>
                 <p>You can check add a request for a <span>career conseling</span></p>
             </div>
             <div class="career-body">
-                <a href="">
+                <a href="/career-view">
                     <div class="view-career">
                         <div class="view-career-icon">
                             <img src="assets/icon/view-career.png" alt="">

@@ -5,7 +5,7 @@
             <img src="assets/img/logoTb.png" alt="">
             <p>Starbhak Konseling</p>
         </div>
-        @if (Request::is('siswas'))
+        @if (Request::is('siswas') || ('private-view'))
       
         @else
         <div class="menu">
