@@ -45,8 +45,8 @@ body {
     margin-top: 15px;
 }
 
-.upcoming, .history{
-    width: 600px;
+.upcoming, .history, .sosialisasi{
+    width: 400px;
     height: 180px;
     background-color: #AACFFB;
     border-radius: 10px;

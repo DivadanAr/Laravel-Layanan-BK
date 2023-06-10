@@ -50,6 +50,28 @@
             </div>
 
         </div>
+        <div class="sosialisasi">
+            <div class="header">
+                <p>Socialization Schedule</p>
+            </div>
+            <div class="body">
+                <div class="content">
+                    <div class="left-side">
+                        <p>PT. Ciptadra Softindo</p>
+                        <p>
+                            <iconify-icon icon="zondicons:time"></iconify-icon>
+                            08.00 - 10.00
+                        </p>
+                    </div>
+                    <div class="right-side">
+                        <p>20-2-2024</p>
+                        <p>Ruang BK</p>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
         <div class="history">
             <div class="header">
                 <p>History</p>
@@ -85,6 +107,7 @@
             </div>
         </div>
     </div>
+    
     <div class="second-row">
         <div class="schedule">
             <div class="schedule-header">
