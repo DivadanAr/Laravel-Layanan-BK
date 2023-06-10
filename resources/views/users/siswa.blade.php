@@ -6,6 +6,7 @@
 
 @section('content')
 <div class="container">
+    
     <div class="left-side">
         <div class="back">
             <a href="/">
@@ -174,7 +175,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="#modal-private">
                     <div class="input-private">
                         <div class="input-private-icon">
                             <img src="assets/icon/input-private.png" alt="">
@@ -185,9 +186,37 @@
                         </div>
                     </div>
                 </a>
+            </div>
 
+            <div id="modal-private" class="modal">
+                <div class="modal__content">
+                    <div class="modal-header">
+                        <p>Request A Private Conseling</p>
+                        <p>Request for a private conseling service here !</p>
+                    </div>
+                    <div class="modal-body">
+                        <div class="title">
+                            <p>Conseling Title</p>
+                            <input type="text" placeholder="What do you want to talk about?">
+                        </div>
+                        <div class="topic">
+                            <p>Conseling Topic</p>
+                            <textarea name=""  placeholder="A simple description of what do you want to talk about?" id="" cols="70" rows="5"> </textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="Cancle">
+                            Cancel
+                        </a>
+                        <a href="">
+                            Send Request
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
+
+        
 
         <div class="study-conseling">
             <div class="study-header">
@@ -206,7 +235,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="/career-view">
+                <a href="#modal-study">
                     <div class="input-study">
                         <div class="input-study-icon">
                             <img src="assets/icon/input-study.png" alt="">
@@ -217,6 +246,34 @@
                         </div>
                     </div>
                 </a>
+
+                {{-- modal study --}}
+                <div id="modal-study" class="modal">
+                    <div class="modal__content">
+                        <div class="modal-header">
+                            <p>Request A Study Conseling</p>
+                            <p>Request for a Study conseling service here !</p>
+                        </div>
+                        <div class="modal-body">
+                            <div class="title">
+                                <p>Conseling Title</p>
+                                <input type="text" placeholder="What do you want to talk about?">
+                            </div>
+                            <div class="topic">
+                                <p>Conseling Topic</p>
+                                <textarea name=""  placeholder="A simple description of what do you want to talk about?" id="" cols="70" rows="5"> </textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="Cancle">
+                                Cancel
+                            </a>
+                            <a href="">
+                                Send Request
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -238,7 +295,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="#modal-social">
                     <div class="input-social">
                         <div class="input-social-icon">
                             <img src="assets/icon/input-social.png" alt="">
@@ -249,6 +306,33 @@
                         </div>
                     </div>
                 </a>
+
+                <div id="modal-social" class="modal">
+                    <div class="modal__content">
+                        <div class="modal-header">
+                            <p>Request A Social Conseling</p>
+                            <p>Request for a Social conseling service here !</p>
+                        </div>
+                        <div class="modal-body">
+                            <div class="title">
+                                <p>Conseling Title</p>
+                                <input type="text" placeholder="What do you want to talk about?">
+                            </div>
+                            <div class="topic">
+                                <p>Conseling Topic</p>
+                                <textarea name=""  placeholder="A simple description of what do you want to talk about?" id="" cols="70" rows="5"> </textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="Cancle">
+                                Cancel
+                            </a>
+                            <a href="">
+                                Send Request
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -270,7 +354,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="">
+                <a href="#modal-career">
                     <div class="input-career">
                         <div class="input-career-icon">
                             <img src="assets/icon/input-career.png" alt="">
@@ -281,6 +365,32 @@
                         </div>
                     </div>
                 </a>
+                <div id="modal-career" class="modal">
+                    <div class="modal__content">
+                        <div class="modal-header">
+                            <p>Request A Career Conseling</p>
+                            <p>Request for a Career conseling service here !</p>
+                        </div>
+                        <div class="modal-body">
+                            <div class="title">
+                                <p>Conseling Title</p>
+                                <input type="text" placeholder="What do you want to talk about?">
+                            </div>
+                            <div class="topic">
+                                <p>Conseling Topic</p>
+                                <textarea name=""  placeholder="A simple description of what do you want to talk about?" id="" cols="70" rows="5"> </textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="cancle">
+                                Cancel
+                            </a>
+                            <a href="">
+                                Send Request
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
