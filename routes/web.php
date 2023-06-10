@@ -39,6 +39,10 @@ Route::get('/social-view', function () {
     return view('users.view-social');
 });
 
+Route::get('/signin', function () {
+    return view('signin');
+});
+
 
 Route::middleware([
     'auth:sanctum',
